@@ -26,4 +26,6 @@ jobs:
         cd src
         javac -cp . TeoriaDePitagoras.java
     - name: Executando o JAVA
-      run: java src/TeoriaDePitagoras.java
+      run: |
+        cd src
+        java -cp . TeoriaDePitagoras
