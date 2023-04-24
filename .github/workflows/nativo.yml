@@ -22,4 +22,6 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compilando no JAVA
-      run: javac src/TeoriaDePitagoras.java
+      run: |
+        cd src
+        javac -cp . TeoriaDePitagoras.java
