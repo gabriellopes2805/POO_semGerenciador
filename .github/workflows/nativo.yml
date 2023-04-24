@@ -24,8 +24,8 @@ jobs:
     - name: Compilando no JAVA
       run: |
         cd src
-        javac -cp . TeoriaDePitagoras.java
+        javac -cp . Main.java
     - name: Executando o JAVA
       run: |
         cd src
-        java -cp . TeoriaDePitagoras
+        java -cp . Main
