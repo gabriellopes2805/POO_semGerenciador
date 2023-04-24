@@ -28,4 +28,4 @@ jobs:
     - name: Executando o JAVA
       run: |
         cd src
-        java -cp . TeoriaDePitagoras.java
+        java TeoriaDePitagoras.java
